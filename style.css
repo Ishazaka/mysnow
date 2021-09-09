@@ -1,1 +1,46 @@
 
+*{ 
+   box-sizing: border-box;
+margin: 0;
+padding:0;
+}
+body{
+background-image: url(https://cdn.pixabay.com/photo/2015/07/31/14/59/creative-869200_960_720.jpg);
+-webkit-background-size: cover;
+background-size: cover;
+background-position: center center;
+height:100vh ;
+font-family: poppins;
+font-size: 16px;
+}
+.logo{height: 10vh;}
+h1{
+text-align: center;
+background-color: green;
+}
+div{
+  color: black;
+  font-size: 28px;
+  background: url('https://cdn.pixabay.com/photo/2017/01/14/12/59/iceland-1979445_960_720.jpg');
+  background-position: center;
+  height:70vh ;
+  text-align: center;
+  padding: 50px
+}
+p{
+  color:black;
+  font-family: century;
+  font-size: 26px;
+}
+#ideas { 
+ background: linear-gradient(to bottom, #ffe8d4, #f69d3c);
+    border: 3px solid #ad1818;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 25px;
+    box-shadow: 2px 2px 1px black;
+}
+ a{
+   text-decoration: none;
+   width: 30px
+ }
